@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Arjoo" />
+    <meta property="og:description" content="Portfolio Website of  Arjoo" />
+   
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" href="images/WW.jpg" sizes="16x16" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/WW.jpg">
+
+
+    <title>  Arjoo Bano</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/cb31bfb0c6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Arj.jpg" class="logo" alt="" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Arjoo Bano</span><br />from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------------About Section----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mobile.jpg" alt="" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        A motivated Front End Developer with a strong foundation in designing and developing
+                        responsive user interfaces for web and mobile platforms. Experienced in implementing
+                        best practices in front-end development, collaborating with cross-functional teams, and
+                        ensuring optimal performance and functionality. Skilled in troubleshooting, debugging,
+                        and continuously improving web applications by staying current with industry trends and
+                        technologies.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LANGUAGES</span><br />JavaScript, Java, C#, Python, TypeScript,  SQL</li>
+                            <li><span>FRONTEND TECHNOLOGIES</span><br /> ReactJS, Redux, JavaScript,
+                                 Bootstrap, HTML, CSS</li>
+                            <li><span>BACKEND TECHNOLOGIES</span><br />Javascript, NodeJS, ExpressJS, .Net, Java,
+                                API</li>
+                            <li><span>DATABASE</span><br />MySQL, MongoDB,  MySQL Server</li>
+                            <li><span>DEVELOPER TOOLS</span><br />Git, GitHub, GitLab,Figma, Canva</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Nullclass</span><br />Web Developer (June 2023 - July 23)
+                            </li>
+                            <li><span>Teachnook</span><br />Business Development Association (January 2022 - March 2024)
+                            </li>
+                            <li><span>Exposys</span><br />Web Developer (May 24 -  July 24)</li>
+                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH</span><br />Jaypee University Of Engineering and Technology (JUET) <br> 2020-2024
+                            </li>
+                            <li><span>SENIOR SECONDARY</span><br />National High Secondary  <br> 2019-2020
+                            </li>
+                            <li><span>SECONDARY</span><br />Model Public School <br> 2018</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Frontend Developer</h2>
+                    <p style="text-align: justify;">
+                        I provide top-notch web development services tailored to your needs. From sleek front-end
+                        designs to robust back-end functionality, I specialize in creating user-friendly and responsive
+                        websites. Whether it's building from scratch or enhancing existing sites, I'm here to elevate
+                        your online presence with cutting-edge technology and a touch of creativity.
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.bing.com/search?EID=MBSC&form=BGGCMF&pc=U749&DPC=BG02&q=frontend+developer">Learn
+                        more</a>
+                  
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p style="text-align: justify;">
+                        I specialize in providing top-notch UI/UX design services, creating visually appealing and
+                        user-friendly interfaces for digital products. With a keen understanding of user behavior and
+                        industry trends, I craft designs that not only look great but also enhance the overall user
+                        experience. From wireframes to prototypes, I bring concepts to life, ensuring seamless
+                        navigation and engaging interactions. Let's collaborate to elevate your digital presence with
+                        intuitive and aesthetically pleasing design solutions.
+                   </p>
+                   <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.bing.com/search?EID=MBSC&form=BGGCMF&pc=U749&DPC=BG02&q=ui+ux">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h2>BDA</h2>
+                    <p style="text-align: justify;">
+                        A Business Development Association typically refers to an organization or group 
+                        that focuses on promoting and supporting business development activities. 
+                        These associations often provide resources, networking opportunities, training, and advocacy for businesses 
+                        and professionals involved in business development. Their main goal is to help companies grow, expand their 
+                        market presence, and enhance their overall business strategies.
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.bing.com/search?EID=MBSC&form=BGGCMF&pc=U749&DPC=BG02&q=business+development+associate">Learn
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                   
+                    <img src="img3.jpg" alt="" />
+                    <div class="layer">
+                        <h3>Bulk Mass Mail</h3>
+                        <p>
+                       
+                            The Bulk Mass Project is a web application designed to handle large-scale
+                            data processing and display, allowing users to interact with and manage 
+                            extensive datasets efficiently. The project focuses on providing a seamless 
+                            user experience with responsive design, intuitive navigation, and real-time data updates.
+                  </p>
+                 
+                      
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="img2.jpg" alt="" />
+                    <div class="layer">
+                        <h3>Word Scramble</h3>
+                        <p>
+                            The Word Scramble Game is an interactive and educational web-based game 
+                            where users are challenged to unscramble jumbled words within a time limit. 
+                            The game is designed to enhance vocabulary skills while providing an engaging 
+                            and fun experience for players of all ages.
+                        </p>
+                       
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="1.jpg" alt="" />
+                    
+                    <div class="layer">
+                        <h3>Editor</h3>
+                        <p>
+                        
+                            The Code Editor is a streamlined, web-based tool designed for developers 
+                            to seamlessly write, edit, and preview code within their browsers. 
+                            Supporting multiple programming languages, this editor includes essential 
+                            features like syntax highlighting, live preview, and auto-completion
+                        </p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> ark88258@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 XXXXXXXXXX</p>
+                    <div class="social-icons">
+                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        <a target="_blank" href="https://www.instagram.com/arjoo_321mansoori/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/arjoo-bano-50339425b/"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/ArzooMansoori"><i
+                                class="fa-brands fa-github"></i></a>
+                       </div>
+                    <a href="javascript:void(0)" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2024 © Arjoo Bano. All rights reserved. Made with <i class="fas fa-heart"></i> by Arjoo </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSawvairRZtoaXaQwgEI8kkQAevLa3nIGHgCPuZ0r6bJTCThE0KGHtCokGZ1Lva7e-Bw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
